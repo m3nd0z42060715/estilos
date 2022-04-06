@@ -1,6 +1,21 @@
-.ima1{
-    position: fixed;
-}
+img{
+    height: 34px;
+    width: 30px;
+    margin: 15px 0;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    }
+    
+img:hover {
+    height: 64px;
+    width: 64px;
+    margin-left: 20px;
+    }
+
 a{
     position: absolute;
+    top: 100px;
+    animation-duration: 2s;
+    Animation: slidein;
 }
